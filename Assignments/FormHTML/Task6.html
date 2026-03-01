@@ -1,11 +1,71 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <img src="image.png" alt="">
-</body>
+  </head>
+  <body>
+    <table >
+      <tr>
+        <th rowspan="10"><img src="image.png" alt="" /></th>
+        <th colspan="3">
+          <b><u>DOCTOR APPOINTMENT FORM</u></b>
+        </th>
+        <th></th>
+      </tr>
+      <tr>
+        <td width="200">
+          <label for="Appointment Date">Appointment Date</label>
+        </td>
+        <td><input type="date" id="Appointment Date" /></td>
+      </tr>
+      <tr>
+        <td><label for="Appointment Time">Appointment Date</label></td>
+        <td><input type="time" id="Time" /></td>
+      </tr>
+      <tr>
+        <td><label for="Name">Name</label></td>
+        <td width="200"><input type="text" placeholder="First" /></td>
+        <td><input type="text" placeholder="Last" /></td>
+      </tr>
+      <td>Gender</td>
+      <td>
+        <span>Male</span>
+        <input type="radio" name="Gender" />
+        <span>Female</span>
+        <input type="radio" name="Gender" />
+      </td>
+      <tr>
+        <td><label for="Phone">Phone</label></td>
+        <td><input type="number" id="Phone" /></td>
+      </tr>
+      <tr>
+        <td><label for="Address">Address</label></td>
+        <td><input type="text" placeholder="city" /></td>
+        <td><input type="text" placeholder="State" /></td>
+      </tr>
+      <tr>
+        <td><label for="qr">Your Query</label></td>
+        <td colspan="2"><textarea id="qr"> </textarea></td>
+      </tr>
+      <tr>
+        <td><label for="at">Appointment Type</label></td>
+        <td colspan="2">
+            Select which appointment type(s) you reuire <br>
+            <input type="checkbox" name="" id="">Cervix checkup <br>
+            <input type="checkbox" name="" id="">heart checkup <br>
+             <input type="checkbox" name="" id="">eye checkup <br>
+            <input type="checkbox" name="" id="">Hearing checkup <br>
+           
+
+        </td>
+
+      </tr>
+      <tr>
+        <td colspan="3" align="center"><button >Send</button></td>
+        
+      </tr>
+    </table>
+  </body>
 </html>

@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style1.css" />
   </head>
   <body>
     <h1 align="center">
@@ -48,36 +49,40 @@
         <td><a href="./FormHTML/Subindexform.html">Click here</a></td>
       </tr>
     </table>
-    <fieldset>
-      <legend align="center"><b>Project Overview</b></legend>
-      <ul>
-        <li><b>Student Name:-</b>Karan Rathore</li>
-        <li><b>Course Name:-</b>FSD06</li>
-        <li>
-          <b>Project Description:-</b>  This project is a simple Assignment
-          Navigation Website developed using HTML. The main purpose of the
-          project is to organize and display different subject assignments in a
-          structured manner so that users can easily navigate between them. The
-          website acts as a central dashboard where all assignments are linked
-          through navigation menus.
-        </li>
-      </ul>
-    </fieldset>
+    <div class="overview">
+      <fieldset>
+        <legend align="center"><b>Project Overview</b></legend>
+        <ul>
+          <li><b>Student Name:-</b>Karan Rathore</li>
+          <li><b>Course Name:-</b>FSD06</li>
+          <li>
+            <b>Project Description:-</b> This project is a simple Assignment
+            Navigation Website developed using HTML. The main purpose of the
+            project is to organize and display different subject assignments in
+            a structured manner so that users can easily navigate between them.
+            The website acts as a central dashboard where all assignments are
+            linked through navigation menus.
+          </li>
+        </ul>
+      </fieldset>
+    </div>
     <table>
       <tr>
         <th></th>
         <th></th>
       </tr>
-      <tr>
-        <td rowspan="7">
-          <img
-            src="WhatsApp Image 2026-03-03 at 00.43.29.jpeg"
-            alt=""
-            width="100"
-            height="150"
-          />
-        </td>
-      </tr>
+      <div class="image">
+        <tr>
+          <td rowspan="7">
+            <img
+              src="WhatsApp Image 2026-03-03 at 00.43.29.jpeg"
+              alt=""
+              width="100"
+              height="150"
+            />
+          </td>
+        </tr>
+      <div>
       <tr>
         <td>Karan Rathore</td>
       </tr>
@@ -104,6 +109,8 @@
           >
         </td>
       </tr>
+      </div>
+      </div>
       <tr>
         <td>
           <a

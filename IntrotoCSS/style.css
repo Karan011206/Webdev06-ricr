@@ -1,19 +1,71 @@
-*{
+/* /* *{
     background-color: aqua;
 }
-div{
-    background-color: beige;
-}
-.abc{
-    background-color: rgb(179, 160, 198);
-    border: 5px solid black;
+/* div{ */
+    /* background-color: beige; */
+/* } */
+/* .abc{ */
+    /* background-color: rgb(179, 160, 198); */
+    /* border: 5px solid black; */
 
-    border-radius: 5px;
-}
+    /* border-radius: 5px; */
+/* }
 h1{
-    background-color: brown;
-}
-#head1{
-    background-color: blue;
+    background-color: brown; */
+/* } */ 
+/* #head1{ */
+    /* background-color: blue;
 
+}
+
+#SS
+{
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    padding: 20px;
+    border: 1px solid rgb(219, 125, 125);
+    box-shadow: 10px 10px 30px 4px rgb(143, 221, 144);
+}
+#textSample
+{
+    text-shadow: 6.2px 02.2px 6.2px  red;
+}
+
+
+
+#sub{
+    padding: 10px 20px;
+    font-size: 16px;
+
+    border: none;
+    color: rgb(22, 42, 35);
+    border-start-start-radius: 15px;
+    border-end-end-radius: 15px;
+    border-end-start-radius: 15px;
+    box-shadow: 2px 3px 10px 10px ;
+    
+
+} */
+/* #somedata {
+    border: 1px solid #000;
+    width:800px ;
+    margin: 5px;
+}
+#somedata div img
+ {
+
+}
+#somedata 
+{
+    background-color: beige;
+    img{
+border-radius: 10px;
+height: 200px
+;
+    }
+} */ 
+.a{
+    background: #b34545;
+    
 }

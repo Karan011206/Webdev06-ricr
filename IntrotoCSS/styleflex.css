@@ -9,6 +9,8 @@
     align-items: center; */
     display: grid;
     grid-template-columns: 150px 200px 150px 200px;
+    justify-items: center;
+    gap:5px ;
 
 }
 .p1child{

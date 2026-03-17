@@ -1,0 +1,117 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+#main{
+
+    background: rgb(92, 92, 204);
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    height: 100vh;
+    align-items: center;
+    
+}
+
+
+.card{
+
+    background: #fff;
+    max-height: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    display: grid;
+    gap: 20px;
+    width: 300px;
+}
+
+.form-field
+{
+    display: flex ;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+
+.form-field input 
+{
+
+    border: none;
+    background-color: transparent;
+    outline: none;
+    width: 100%;
+}
+.Terms
+{
+    display: flex;
+    justify-content: space-between;
+}
+.LoginSubmitButton button
+
+{
+    background-color:rgb(120, 120, 193);
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    
+
+}
+.RegisterSubmitButton button
+
+{
+    background-color: rgb(120, 120, 193);
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    
+
+}
+.RegisterReffLink
+{
+    text-align: center;
+
+}
+.LoginReffLink
+{
+    text-align: center;
+}
+.LoginSubmitButton button:hover
+
+{
+background-color: aliceblue;
+color: aqua;
+
+}
+
+.LoginSubmitButton button:active
+{
+background-color: antiquewhite;
+color: aquamarine;
+border: 2px solid skyblue;
+font-weight: bolder;
+}
+
+
+.form-field input:focus
+{
+    border: 1px solid  skyblue;
+     border-radius: 5px;
+}
+.RegisterSubmitButton button:hover
+{
+background-color: aliceblue;
+color: aqua;
+
+}
+
+.RegisterSubmitButton button:active
+{
+background-color: antiquewhite;
+color: aquamarine;
+border: 2px solid skyblue;
+font-weight: bolder;
+}

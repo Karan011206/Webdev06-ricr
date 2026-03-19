@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    display: flex;
+}
+
+#leftSection {
+    width: 10%;
+    background-color: #506275;
+    color: white;
+    padding: 20px;
+}
+
+#rightSection {
+    width: 70%;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+#profileImage {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(197, 183, 183);
+    text-align: center;
+    border-radius: 100%;
+}
+
+
+#name {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#designation {
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+.sectionTitle {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+
+
+.experienceBlock,
+.educationBlock,
+.awardBlock,
+.referenceBlock {
+    margin-bottom: 10px;
+}
+
+#rightSection .sectionTitle {
+    font-size: 18px;
+    color: #3f546a;
+}
+

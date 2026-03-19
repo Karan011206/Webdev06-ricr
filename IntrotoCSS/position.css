@@ -1,0 +1,12 @@
+*{
+    margin: 05px;
+    padding: 05px;
+
+}
+.main{
+    position: fixed;
+    top: 0px;
+    background-color: rgb(96, 96, 177);
+
+    
+}

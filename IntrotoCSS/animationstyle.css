@@ -1,0 +1,34 @@
+#div1{
+    width: 10px;
+    height: 20px;
+    border: 1px solid ;
+    overflow: hidden;
+    text-wrap: nowrap;
+
+
+}
+#div1:hover
+{
+    width: 200px;
+     transition: width 3s linear  2s;
+}
+#div2
+{
+     width: 200px;
+    height: 20px;
+    border: 1px solid black3 ;
+    overflow: hidden;
+    text-wrap: nowrap;
+
+
+}
+
+button{
+    border: 1px solid color black;
+    
+}
+#login
+{
+    background-color: dark orange;
+}
+

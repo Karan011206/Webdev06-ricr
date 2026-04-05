@@ -1,0 +1,14 @@
+:root {
+    --primary-color: green;
+    --secondary-color: skyblue;
+
+}
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    animation: spin 5s linear infinite;
+}
+th{
+
+    
+}

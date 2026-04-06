@@ -1,131 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styleform2.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enquiry Form</title>
+  <link rel="stylesheet" href="styleform2.css">
 </head>
 <body>
-   
 
-<form>
-     <h1 align="center">Enquiry Form</h1>
-<p align="center">
-Have questions or need assistance? Fill out the form below to connect with our team and explore your opportunities.
-</p>
+<div class="container">
 
-<table align="center" cellpadding="8">
+  <h1>Enquiry Form</h1>
+  <p class="subtitle">Have questions or need assistance? Fill out the form below to connect with our team and explore your opportunities.</p>
 
-<tr>
-<td>Person Name*</td>
-<td>Contact Number*</td>
-</tr>
+  <form>
 
-<tr>
-<td><input type="text" placeholder="Person Name"></td>
-<td><input type="text" placeholder="Contact Number"></td>
-</tr>
+    <div class="row">
+      <div class="input-group">
+        <label>Person Name *</label>
+        <input type="text" placeholder="Person Name">
+      </div>
+      <div class="input-group">
+        <label>Contact Number *</label>
+        <input type="text" placeholder="Contact Number">
+      </div>
+    </div>
 
-<tr>
-<td>Email*</td>
-<td>Qualification*</td>
-</tr>
+    <div class="row">
+      <div class="input-group">
+        <label>Email *</label>
+        <input type="email" placeholder="Email">
+      </div>
+      <div class="input-group">
+        <label>Qualification *</label>
+        <input type="text" placeholder="Qualification">
+      </div>
+    </div>
 
-<tr>
-<td><input type="email" placeholder="Email"></td>
-<td><input type="text" placeholder="Qualification"></td>
-</tr>
+    <div class="input-group full">
+      <label>College / School Name *</label>
+      <input type="text" placeholder="College/School Name">
+    </div>
 
-<tr>
-<td>College/School Name*</td>
-<td></td>
-</tr>
+    <div class="row">
+      <div class="input-group">
+        <label>Year *</label>
+        <select>
+          <option value="">Year</option>
+          <option>1st Year</option>
+          <option>2nd Year</option>
+          <option>3rd Year</option>
+          <option>4th Year</option>
+          <option>Passout</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <div class="input-group">
+        <label>Branch *</label>
+        <input type="text" placeholder="Branch">
+      </div>
+    </div>
 
-<tr>
-<td colspan="2">
-<input type="text" placeholder="College/School Name" size="60">
-</td>
-</tr>
+    <div class="row">
+      <div class="checkbox-section">
+        <label>Interested in Which Course *</label>
+        <div class="checkbox-grid">
+          <label class="checkbox-item"><input type="checkbox"> Full Stack Web Development</label>
+          <label class="checkbox-item"><input type="checkbox"> Data Science with Python</label>
+          <label class="checkbox-item"><input type="checkbox"> Data Analytics with Python</label>
+          <label class="checkbox-item"><input type="checkbox"> Business Analyst</label>
+          <label class="checkbox-item"><input type="checkbox"> Java Programming</label>
+          <label class="checkbox-item"><input type="checkbox"> Python Programming</label>
+          <label class="checkbox-item"><input type="checkbox"> C/C++ Programming</label>
+          <label class="checkbox-item"><input type="checkbox"> Other</label>
+        </div>
+      </div>
+      <div class="stacked-selects">
+        <div class="input-group">
+          <label>Source of Information *</label>
+          <select>
+            <option value="">Source of Information</option>
+            <option>NewsPaper / Print Media</option>
+            <option>Friends / Relatives</option>
+            <option>Social Media</option>
+            <option>Workshop / Seminar</option>
+            <option>Received call from institute</option>
+            <option>Other</option>
+          </select>
+          <span class="note">Only choose 'Received call from institute' if you actually got a call from us.</span>
+        </div>
+        <div class="input-group">
+          <label>Name of Executive *</label>
+          <select>
+            <option value="">Name of Executive</option>
+            <option>Kasim Khan</option>
+            <option>Anushree Choubey</option>
+            <option>Sheshram Ahirwar</option>
+            <option>Shani Mishra</option>
+            <option>Sankalp Shukla</option>
+            <option>Deepali Tated</option>
+            <option>Anchal Sejwar</option>
+          </select>
+        </div>
+      </div>
+    </div>
 
-<tr>
-<td>Year*</td>
-<td>Branch*</td>
-</tr>
+    <div class="submit-area">
+      <button type="submit">Submit</button>
+    </div>
 
-<tr>
-<td>
-<select >
-<option>Year</option>
-<option>first Year</option>
-<option>second Year</option> Year</option>
-<option>third Year</option>
-<option>fourth Year</option>
-<option>passout</option>
-<option>other</option>
-</select>
-</td>
-
-<td>
-<input type="text" placeholder="Branch">
-</td>
-</tr>
-
-<tr>
-<td valign="top">Interested in Which Course*</td>
-<td>Source of Information <br>(Only choose 'Received call from institute' if you <br> actually got a call from us)*</td>
-</tr>
-
-<tr>
-<td>
-<input type="checkbox"> Full Stack Web Development<br>
-<input type="checkbox"> Data Science with Python<br>
-<input type="checkbox"> Data Analytics with Python<br>
-<input type="checkbox"> Business Analyst<br>
-<input type="checkbox"> Java Programming<br>
-<input type="checkbox"> Python Programming<br>
-<input type="checkbox"> C/C++ Programming<br>
-<input type="checkbox"> Other
-</td>
-
-<td valign="top">
-<select>
-<option>Source of Information</option>
-<option>NewsPaper/Print Media</option>
-<option>Friends/Relatives</option>
-<option>Social Media</option>
-<option>Workshop/Seminar</option>
-<option>Received call from institute </option>
-<option>Other<option>
-</select>
-
-<br><br>
-
-Name of Executive*<br>
-<select>
-<option>Name of Executive</option>
-<option>Kasim Khan</option>
-<option>Anushree Choubey</option>
-<option>Sheshram Ahirwar</option>
-<option>Shani Mishra</option>
-<option>Sankalp Shukla</option>
-<option>Deepali Tated</option>
-<option>Anchal Sejwar</option>
-</select>
-
-</td>
-</tr>
-
-<tr>
-<td colspan="2" align="center">
-<br>
-<input type="submit" value="Submit">
-</td>
-</tr>
-
-</table>
-
-</form>
+  </form>
+</div>
 
 </body>
 </html>

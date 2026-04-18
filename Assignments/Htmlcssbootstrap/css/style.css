@@ -9,7 +9,7 @@
   --color-base-300: #e7d9c9;
   --color-base-content: #2d1b10;
   --color-error: #ef4444;
-  --color-success: #22c55e;
+  --color-success: #1eae53;
 }
 
 /* ===== GLOBAL ===== */
@@ -202,7 +202,7 @@ section[style*="color-primary"] {
 }
 
 .footer hr {
-  border-color: #555;
+  border-color: #272525;
 }
 
 /* ===== RESPONSIVE ===== */

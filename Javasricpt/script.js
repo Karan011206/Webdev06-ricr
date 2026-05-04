@@ -75,20 +75,64 @@
 //     }
 // }
 
-  let a = 20,b = 30;
-  function sum(x,y){
-    let z= x+y;
-    console.log(z);
-  }
-  sum(a,b)
+  // let a = 20,b = 30;
+  // function sum(x,y){
+  //   let z= x+y;
+  //   console.log(z);
+  // }
+  // sum(a,b)
 
 
-  let abc = function(){
-    console.log("hello world");
+  // let abc = function(){
+  //   console.log("hello world");
 
-  };
-  console.log(abc);
-  abc();
+  // };
+  // console.log(abc);
+  // abc();
 
   //arrow function 
-  
+  //scope
+  let test ="this is global test variable ";
+  function classA(){
+    console.log("classA", test);
+  }
+  function classB(){
+    console.log("classB", test);
+  }
+  function classC(){
+    let test2="this is local variable"
+    console.log("classC", test);
+    console.log("classC", test2);
+  }
+  function classD(){
+    console.log("classD", test);
+    {
+      let v =10;
+      console.log(v);
+    }
+  }
+  function classE(){
+
+    let a = "rehaan";//this is a local variable and it can be called inside the block as well as anywhere inside the function
+    {
+      let b = "karan";
+      console.log(a);
+      console.log(b);
+    }
+    console.log(b);//it will not be called as b is let inside the block it is a block variable 
+    
+  }
+  function classF(){
+  }
+  function classG(){
+  }
+  //variable and function is always declared on the top 
+classA();
+classB();
+classE();
+//hosting 
+abc();
+
+function abc() {
+console.log("Hello");
+}

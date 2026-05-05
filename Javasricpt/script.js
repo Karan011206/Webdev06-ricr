@@ -92,47 +92,67 @@
 
   //arrow function 
   //scope
-  let test ="this is global test variable ";
-  function classA(){
-    console.log("classA", test);
-  }
-  function classB(){
-    console.log("classB", test);
-  }
-  function classC(){
-    let test2="this is local variable"
-    console.log("classC", test);
-    console.log("classC", test2);
-  }
-  function classD(){
-    console.log("classD", test);
-    {
-      let v =10;
-      console.log(v);
-    }
-  }
-  function classE(){
+//   let test ="this is global test variable ";
+//   function classA(){
+//     console.log("classA", test);
+//   }
+//   function classB(){
+//     console.log("classB", test);
+//   }
+//   function classC(){
+//     let test2="this is local variable"
+//     console.log("classC", test);
+//     console.log("classC", test2);
+//   }
+//   function classD(){
+//     console.log("classD", test);
+//     {
+//       let v =10;
+//       console.log(v);
+//     }
+//   }
+//   function classE(){
 
-    let a = "rehaan";//this is a local variable and it can be called inside the block as well as anywhere inside the function
-    {
-      let b = "karan";
-      console.log(a);
-      console.log(b);
-    }
-    console.log(b);//it will not be called as b is let inside the block it is a block variable 
+//     let a = "rehaan";//this is a local variable and it can be called inside the block as well as anywhere inside the function
+//     {
+//       let b = "karan";
+//       console.log(a);
+//       console.log(b);
+//     }
+//     console.log(b);//it will not be called as b is let inside the block it is a block variable 
     
-  }
-  function classF(){
-  }
-  function classG(){
-  }
-  //variable and function is always declared on the top 
-classA();
-classB();
-classE();
-//hosting 
-abc();
+//   }
+//   function classF(){
+//   }
+//   function classG(){
+//   }
+//   //variable and function is always declared on the top 
+// classA();
+// classB();
+// classE();
+// //hosting 
+// abc();
 
-function abc() {
-console.log("Hello");
+// function abc() {
+// console.log("Hello");
+// }
+let arr = [1, 2, 3, 4, 5, 6, 7, 8]; //creation of Array
+
+for (
+  var i = 0;
+  i < 8;
+  i++                              //Reading of array
+) {
+  console.log(arr[i]);
 }
+
+console.log(arr);
+
+arr[2] = arr[2] + 10;              //Updation of array
+console.log(arr); 
+
+arr = [];
+console.log(arr);                   //deletion of array
+
+// hence the CRUD operation has been done since we have perfomed each task of Creation and Reading and Updation and Deletion
+arr.pop();

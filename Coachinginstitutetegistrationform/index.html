@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="bg-light">
+    <div class="container mt-5">
+      <div class="card shadow p-4">
+        <h1 class="text-center mb-4">
+          Coaching Institute Registration Form
+        </h1>
+
+        <form id="formcontainer">
+
+     
+          <h4>Personal Details</h4>
+
+          <div class="mb-3">
+            <label class="form-label">Full Name</label>
+            <input
+              type="text"
+              id="name"
+              class="form-control"
+              placeholder="Enter Full Name"
+            />
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Email Address</label>
+            <input
+              type="email"
+              id="email"
+              class="form-control"
+              placeholder="Enter Email"
+            />
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Mobile Number</label>
+            <input
+              type="number"
+              id="mobile"
+              class="form-control"
+              placeholder="Enter Mobile Number"
+            />
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Date of Birth</label>
+            <input
+              type="date"
+              id="dob"
+              class="form-control"
+            />
+          </div>
+
+          
+          <h4 class="mt-4">Academic Details</h4>
+
+          <div class="mb-3">
+            <label class="form-label">
+              Last Completed Qualification
+            </label>
+
+            <select id="qualification" class="form-select">
+              <option value="">Select Qualification</option>
+              <option>10th</option>
+              <option>12th</option>
+              <option>Graduate</option>
+              <option>Postgraduate</option>
+            </select>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">
+              Percentage / Grade
+            </label>
+
+            <input
+              type="text"
+              id="percentage"
+              class="form-control"
+              placeholder="Enter Percentage"
+            />
+          </div>
+
+          
+          <h4 class="mt-4">Course Information</h4>
+
+          <div class="mb-3">
+            <label class="form-label">Preferred Course</label>
+
+            <select id="course" class="form-select">
+              <option value="">Select Course</option>
+              <option>IITJEE</option>
+              <option>NEET</option>
+              <option>Banking</option>
+              <option>UPSC</option>
+            </select>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">
+              Batch Timing Preference
+            </label>
+
+            <div>
+              <input type="checkbox" id="morning" />
+              <label for="morning">Morning</label>
+
+              <input type="checkbox" id="afternoon" class="ms-3" />
+              <label for="afternoon">Afternoon</label>
+
+              <input type="checkbox" id="evening" class="ms-3" />
+              <label for="evening">Evening</label>
+
+              <input type="checkbox" id="weekend" class="ms-3" />
+              <label for="weekend">Weekend</label>
+            </div>
+          </div>
+
+         
+          <div class="mt-4">
+            <button type="submit" class="btn btn-primary">
+              Submit
+            </button>
+
+            <button type="reset" class="btn btn-danger ms-2">
+              Clear
+            </button>
+          </div>
+
+        </form>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+    </script>
+  </body>
+</html>
